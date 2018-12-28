@@ -1,0 +1,20 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    <mapper namespace="com.ltj.springboot.database.mapper.StudentInfoMapper">
+    <sql id="allColumn" >
+       id as id,
+       name as name,
+       student_id as studentId,
+       class_info as classInfo,
+       desc as desc,
+       gmt_modify as gmtModify,
+       gmt_create as gmtCreate
+    </sql>
+
+    <!-- 对应com.ltj.springboot.database.mapper.StudentInfoMapper中的create()方法，  -->
+   <insert id="create" parameterType="StudentInfoModel" useGeneratedKeys="true">
+           insert into Student_info (name, student_id, class_info, desc, gmt_modify, gmt_create) 
+               values(#{name}, #{studentId}, #{classInfo}, #{desc}, #{gmtModify}, #{gmtCreate})
+   </insert>
+
+
+</mapper>

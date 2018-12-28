@@ -1,0 +1,16 @@
+com\ltj\springboot\database\service\StudentInfoService.class
+com\ltj\springboot\common\model\RestResult.class
+com\ltj\springboot\database\param\BaseParam.class
+com\ltj\springboot\config\SwaggerConfig.class
+com\ltj\springboot\database\model\page\PageRequest.class
+com\ltj\springboot\database\service\impl\StudentInfoServiceImpl.class
+com\ltj\springboot\WebApplication.class
+com\ltj\springboot\database\model\StudentInfoModel.class
+com\ltj\springboot\database\service\BaseService.class
+com\ltj\springboot\common\enums\ErrorTypeEnum.class
+com\ltj\springboot\web\controller\TestController.class
+com\ltj\springboot\database\mapper\StudentInfoMapper.class
+com\ltj\springboot\database\model\BaseModel.class
+com\ltj\springboot\database\param\StudentInfoParam.class
+com\ltj\springboot\web\model\Person.class
+com\ltj\springboot\database\mapper\BaseMapper.class
