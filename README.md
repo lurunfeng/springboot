@@ -1,2 +1,4 @@
-# springboot
-springboot项目搭建
+#springboot
+该项目主要是学会用ssh框架搭建项目
+#目录说明
+windows目录下是连接windows下安装的kafka、Redis、HBASE的demo代码，在resources下的doc是连接的一些指导说明
